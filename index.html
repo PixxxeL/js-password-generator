@@ -17,16 +17,42 @@
 
         <div class="container">
         	<h3>Javascript Password Generator</h3>
-            <div class="row">
-                <div class="span12">
-				    
-                </div>
-            </div>
+            <form class="form-horizontal">
+            	<div class="control-group">
+					<label class="control-label" for="generated-password">
+						Пароль:
+					</label>
+					<div class="controls">
+						<input type="text" id="generated-password" autocomplete="off" class="input-xxlarge">
+					</div>
+				</div>
+				<div class="control-group">
+					<div class="controls">
+						<label>
+							<input type="text" value="32" id="password-chars-count" autocomplete="off"> количество символов
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" checked="checked" id="is-password-digits" autocomplete="off"> цифры
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" checked="checked" id="is-password-upper" autocomplete="off"> буквы верхнего регистра
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" checked="checked" id="is-password-lower" autocomplete="off"> буквы нижнего регистра
+						</label>
+						<label class="checkbox">
+							<input type="checkbox" checked="checked" id="is-password-special" autocomplete="off"> специальные символы
+						</label>
+						<button type="submit" class="btn" id="do-password-generate">Генерировать</button>
+					</div>
+				</div>
+            </form>
         </div> <!-- /container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/password-generator.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
