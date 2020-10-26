@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Генератор паролей",
+    "version": "1.0.0",
+
+    "description": "Генератор паролей",
+    "homepage_url": "https://github.com/pixxxel/js-password-generator",
+    "icons": {
+        "32": "icons/logo-32.png",
+        "48": "icons/logo-48.png",
+        "96": "icons/logo-96.png",
+        "128": "icons/logo-128.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/logo-32.png",
+        "default_title": "Генератор паролей",
+        "default_popup": "popup/password_generator.html"
+    }
+
+}

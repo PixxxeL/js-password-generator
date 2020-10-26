@@ -1,9 +1,8 @@
-jQuery Password Generator
-=====================
+# Password Generator
 
-Generate password with digits and/or letters and/or special chars.
-May be set the length of password.
+Firefox extension for generate password
 
-Module: https://github.com/PixxxeL/js-password-generator/blob/master/js/password-generator.js
+## TODO
 
-Example: http://www.pixel-tyumen.ru/works/password-generator/
+1. Improve password algorithm
+2. Set UUID?
