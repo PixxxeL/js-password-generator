@@ -1,1 +1,3 @@
 node_modules
+/ff-ext/web-ext-artifacts/
+/ff-ext/.web-extension-id
